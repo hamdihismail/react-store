@@ -1,15 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import heroBcg from '../assets/hero-bcg.svg';
+// import heroBcg from '../assets/hero-bcg.svg';
+import heroBcg from '../assets/hero-bcg.jpg';
 import heroBcg2 from '../assets/hero-bcg-2.jpg';
 const Hero = () => {
   return (
     <Wrapper className='section-center'>
       <article className='content'>
         <h1>
-          design your <br />
-          comfort zone
+          gadgets from <br />
+          back in the day
         </h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at
@@ -22,8 +23,8 @@ const Hero = () => {
         </Link>
       </article>
       <article className='img-container'>
-        <img src={heroBcg} alt='nice table' className='main-img' />
-        {/* <img src={heroBcg2} alt='person working' className='accent-img' /> */}
+        <img src={heroBcg} alt='retro game' className='main-img' />
+        <img src={heroBcg2} alt='vcr' className='accent-img' />
       </article>
     </Wrapper>
   );
@@ -47,8 +48,8 @@ const Wrapper = styled.section`
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);
     grid-template-columns: 1fr 1fr;
-    /* gap: 8rem; */
-    gap: 2rem;
+    gap: 8rem;
+    /* gap: 2rem; */
     h1 {
       margin-bottom: 2rem;
     }
@@ -65,7 +66,8 @@ const Wrapper = styled.section`
     }
     .main-img {
       width: 100%;
-      height: 550px;
+      /* height: 550px; */
+      height: 700px;
       position: relative;
       border-radius: var(--radius);
       display: block;
@@ -75,20 +77,22 @@ const Wrapper = styled.section`
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 250px;
+      /* width: 250px; */
+      width: 350px;
       transform: translateX(-50%);
       border-radius: var(--radius);
     }
-    /* .img-container::before {
+    .img-container::before {
       content: '';
       position: absolute;
       width: 10%;
-      height: 80%;
+      /* height: 80%; */
+      height: 90%;
       background: var(--clr-primary-9);
       bottom: 0%;
       left: -8%;
       border-radius: var(--radius);
-    } */
+    }
   }
 `;
 
