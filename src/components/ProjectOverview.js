@@ -3,11 +3,8 @@ import { FaTimes } from 'react-icons/fa';
 
 const ProjectOverview = () => {
   const closeProjectOverview = (e) => {
-    console.log(e.currentTarget.parentElement.className);
-    // e.currentTarget.parentElement.classList.remove('show');
     e.currentTarget.parentElement.classList.add('hide');
   };
-
   return (
     <OverviewContainer>
       <button className='close-btn' onClick={closeProjectOverview}>
@@ -87,7 +84,7 @@ const OverviewContainer = styled.aside`
   }
   p {
     color: var(--clr-white);
-    width: var(--fixed-width);
+    max-width: var(--fixed-width);
     margin-top: 1rem;
   }
   ul {
@@ -95,8 +92,5 @@ const OverviewContainer = styled.aside`
     color: var(--clr-white);
     list-style-type: disc;
     margin-bottom: 2rem;
-  }
-  .show {
-    display: block;
   }
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar, Sidebar, Footer } from './components';
+import ProjectOverview from './components/ProjectOverview';
 import {
   Home,
   SingleProduct,
@@ -16,6 +17,7 @@ function App() {
   return (
     <AuthWrapper>
       <Router>
+        <ProjectOverview />
         <Navbar />
         <Sidebar />
         <Routes>
