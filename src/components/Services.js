@@ -10,9 +10,8 @@ const Services = () => {
             retro gadgets <br /> bring back memories
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum debitis consectetur reprehenderit non aliquam voluptates
-            dolore aut vero consequuntur.
+            "Join us on a journey to the past with Retro Shop - because who
+            needs modern technology anyway?"
           </p>
         </article>
         <div className='services-center'>
@@ -48,6 +47,7 @@ const Wrapper = styled.section`
     margin-bottom: 0;
     line-height: 1.8;
     color: var(--clr-primary-3);
+    font-size: 1.3rem;
   }
   .services-center {
     margin-top: 4rem;

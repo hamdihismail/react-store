@@ -14,16 +14,24 @@ const AboutPage = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-            accusantium sapiente tempora sed dolore esse deserunt eaque
-            excepturi, delectus error accusamus vel eligendi, omnis beatae.
-            Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque
-            dolore, obcaecati incidunt sequi blanditiis est exercitationem
-            molestiae delectus saepe odio eligendi modi porro eaque in libero
-            minus unde sapiente consectetur architecto. Ullam rerum, nemo iste
-            ex, eaque perspiciatis nisi, eum totam velit saepe sed quos
-            similique amet. Ex, voluptate accusamus nesciunt totam vitae esse
-            iste.
+            Welcome to Retro Shop, the ultimate destination for all things
+            retro! Our mission is to bring back some of the coolest and
+            quirkiest gadgets from the past and celebrate the nostalgia they
+            evoke. At Retro Shop, we believe that the gadgets of yesteryear had
+            a certain character and charm that modern technology often lacks.
+            That's why we've curated a collection of unique and vintage gadgets
+            that will transport you back in time. From retro gaming consoles to
+            classic cameras, we've got it all. Our collection is carefully
+            sourced from thrift stores and online marketplaces, ensuring that
+            each item is one-of-a-kind. We pride ourselves on our satirical take
+            on the past, which adds a playful twist to the nostalgia. But Retro
+            Shop isn't just an ecommerce site - it's a journey through time. We
+            want to help you relive the excitement of the past and rediscover
+            the quirks and charms of retro technology. Our collection is perfect
+            for die-hard vintage enthusiasts and anyone who loves a unique find.
+            So come explore Retro Shop and discover the gadgets that made the
+            past so memorable. Join us on our mission to celebrate the past and
+            bring back the character and charm of retro technology.
           </p>
         </article>
       </Wrapper>

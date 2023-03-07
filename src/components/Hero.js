@@ -66,8 +66,8 @@ const Wrapper = styled.section`
     }
     .main-img {
       width: 100%;
-      /* height: 550px; */
-      height: 700px;
+      height: 550px;
+      /* height: 700px; */
       position: relative;
       border-radius: var(--radius);
       display: block;
@@ -77,8 +77,8 @@ const Wrapper = styled.section`
       position: absolute;
       bottom: 0;
       left: 0;
-      /* width: 250px; */
-      width: 350px;
+      width: 250px;
+      /* width: 350px; */
       transform: translateX(-50%);
       border-radius: var(--radius);
     }
