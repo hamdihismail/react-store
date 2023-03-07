@@ -23,19 +23,19 @@ export const services = [
     id: 1,
     icon: <GiCompass />,
     title: 'mission',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: `At Retro Shop, we're passionate about bringing retro technology to life for a new generation. Join us on a journey back in time!`,
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
     title: 'vision',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: `Rediscover retro technology! Join us for a fun and immersive experience that inspires a new generation to appreciate the joys of the past.`,
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
     title: 'history',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: `Once upon a time, a group of retro-obsessed folks came together to create something special: Retro Shop! We've been on a mission to celebrate the joy of classic technology ever since. `,
   },
 ];
 
