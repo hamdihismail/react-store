@@ -1,7 +1,7 @@
-import React from 'react'
-import { useFilterContext } from '../context/filter_context'
-import { BsFillGridFill, BsList } from 'react-icons/bs'
-import styled from 'styled-components'
+import React from 'react';
+import { useFilterContext } from '../context/filter_context';
+import { BsFillGridFill, BsList } from 'react-icons/bs';
+import styled from 'styled-components';
 const Sort = () => {
   const {
     filtered_products: products,
@@ -10,7 +10,7 @@ const Sort = () => {
     setListView,
     sort,
     updateSort,
-  } = useFilterContext()
+  } = useFilterContext();
   return (
     <Wrapper>
       <div className='btn-container'>
@@ -45,8 +45,8 @@ const Sort = () => {
         </select>
       </form>
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.section`
   display: grid;
@@ -108,7 +108,8 @@ const Wrapper = styled.section`
   label {
     font-size: 1rem;
     text-transform: capitalize;
+    margin-right: 0.25rem;
   }
-`
+`;
 
-export default Sort
+export default Sort;

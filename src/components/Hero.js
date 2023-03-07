@@ -13,10 +13,9 @@ const Hero = () => {
           back in the day
         </h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at
-          sed omnis corporis doloremque possimus velit! Repudiandae nisi odit,
-          aperiam odio ducimus, obcaecati libero et quia tempora excepturi quis
-          alias?
+          Welcome to Retro Shop! Step into a world of vintage tech and classic
+          games. Our carefully curated collection is sure to bring back fond
+          memories and inspire new ones.
         </p>
         <Link to='/products' className='btn hero-btn'>
           shop now
