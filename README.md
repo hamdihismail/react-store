@@ -31,7 +31,7 @@ Retro Shop is a full-stack e-commerce site that offers a curated collection of v
 ### Links
 
 - Solution URL: (https://github.com/hamdihismail/react-store)
-- Live Site URL: (https://frolicking-dolphin-ef034d.netlify.app/products)
+- Live Site URL: (https://frolicking-dolphin-ef034d.netlify.app)
 
 ## My process
 
