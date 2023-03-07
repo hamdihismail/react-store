@@ -81,6 +81,9 @@ const OverviewContainer = styled.aside`
   }
   .underline {
     margin-left: 12%;
+    @media screen and (max-width: 650px) and (min-width: 409px) {
+      margin-left: auto;
+    }
   }
   p {
     color: var(--clr-white);
