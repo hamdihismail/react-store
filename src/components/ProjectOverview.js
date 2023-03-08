@@ -116,6 +116,7 @@ const OverviewContainer = styled.aside`
     gap: 2rem;
     @media screen and (max-width: 800px) {
       flex-direction: column;
+      gap: 0;
     }
   }
 `;
